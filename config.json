@@ -1,0 +1,30 @@
+{
+  "patterns": {
+    "credit_card_numbers": "\\b(?:\\d{4}[ -]?){3}\\d{4}\\b",
+    "social_security_numbers": "\\b\\d{3}-\\d{2}-\\d{4}\\b",
+    "confidential_keywords": "\\b(confidential|private|classified|secret|restricted|sensitive)\\b"
+
+  },
+    "available_sample_patterns_not_accessed_unless_in_above_list": {
+    "email_addresses": "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+",
+    "phone_numbers": "\\b\\d{3}[-.\\s]?\\d{3}[-.\\s]?\\d{4}\\b",
+    "credit_card_numbers": "\\b(?:\\d{4}[ -]?){3}\\d{4}\\b",
+    "social_security_numbers": "\\b\\d{3}-\\d{2}-\\d{4}\\b",
+    "ipv4_addresses": "\\b(?:[0-9]{1,3}\\.){3}[0-9]{1,3}\\b",
+    "ipv6_addresses": "\\b(?:[A-Fa-f0-9]{1,4}:){7}[A-Fa-f0-9]{1,4}\\b",
+    "confidential_keywords": "\\b(confidential|private|classified|secret|restricted|sensitive)\\b",
+    "login_credentials": "\\b(?:username|password|login)\\b",
+    "dates_of_birth": "\\b(?:19|20)\\d{2}[- /.](?:0[1-9]|1[012])[- /.](?:0[1-9]|[12][0-9]|3[01])\\b",
+    "passport_numbers": "\\b[A-Z]{1,2}\\d{6,9}\\b",
+    "us_mailing_addresses": "\\b\\d{1,5} [A-Za-z ]{2,30} (?:Street|St|Avenue|Ave|Road|Rd|Boulevard|Blvd|Lane|Ln|Drive|Dr|Court|Ct)\\b",
+    "medical_record_numbers": "\\b[0-9]{6,10}\\b",
+    "urls": "\\bhttps?://[^\\s]+\\b"
+  },
+  "input_directories": [
+    "/Users/msuliot/Desktop/msuliot"
+  ],
+  "text_output_directory": "/Users/msuliot/text_output",
+  "pii_output_directory": "/Users/msuliot/pii_output",
+  "hash_file_path": "file_hashes.json",
+  "scheduler_interval": 120
+}
