@@ -214,12 +214,11 @@ def main():
                 if file_path.split('.')[-1].lower() in dlm.get_supported_data_loaders():
                     convert_and_save(file_path, config)
     
-    print_and_log(f"Total converted files: {converted_files_count}")
-    print_and_log(f"Total PII files: {pii_files_count}")
-    print_and_log(f"Total PII instances detected: {total_pii_count}")
-
 
 if __name__ == "__main__":
     print("\nProcess started:", end=" ")
     main()
-    print("\nTextify process complete. Check logs for details.") 
+    print("\nProcess completed.\n")
+    print_and_log(f"Total converted files: {converted_files_count}")
+    print_and_log(f"Total PII files: {pii_files_count}")
+    print_and_log(f"Total PII instances detected: {total_pii_count}")

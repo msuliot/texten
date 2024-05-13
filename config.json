@@ -5,7 +5,7 @@
     "confidential_keywords": "\\b(confidential|private|classified|secret|restricted|sensitive)\\b"
 
   },
-    "available_sample_patterns_not_accessed_unless_in_above_list": {
+    "----> available_sample_patterns_not_accessed_unless_in_above_list": {
     "email_addresses": "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+",
     "phone_numbers": "\\b\\d{3}[-.\\s]?\\d{3}[-.\\s]?\\d{4}\\b",
     "credit_card_numbers": "\\b(?:\\d{4}[ -]?){3}\\d{4}\\b",
