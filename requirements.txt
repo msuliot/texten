@@ -1,2 +1,12 @@
 git+https://github.com/msuliot/package.utils.git
-git+https://github.com/msuliot/package.data.loaders.git
+python-docx
+PyPDF2
+openpyxl
+python-pptx
+xlrd
+pandas
+PyMuPDF
+nltk
+numpy
+requests
+beautifulsoup4
