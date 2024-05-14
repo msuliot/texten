@@ -1,8 +1,7 @@
 {
   "patterns": {
     "credit_card_numbers": "\\b(?:\\d{4}[ -]?){3}\\d{4}\\b",
-    "social_security_numbers": "\\b\\d{3}-\\d{2}-\\d{4}\\b",
-    "confidential_keywords": "\\b(confidential|private|classified|secret|restricted|sensitive)\\b"
+    "social_security_numbers": "\\b\\d{3}-\\d{2}-\\d{4}\\b"
 
   },
     "----> available_sample_patterns_not_accessed_unless_in_above_list": {

@@ -2,7 +2,6 @@ from data_loaders.docx_loader import DocxLoader
 from data_loaders.pdf_loader import PdfLoader
 from data_loaders.xlsx_loader import XlsxLoader
 from data_loaders.csv_loader import CsvLoader
-from data_loaders.rtf_loader import RtfLoader
 from data_loaders.pptx_loader import PptxLoader
 from data_loaders.html_loader import HtmlLoader
 
@@ -13,7 +12,6 @@ class DataLoaderManager:
             'pdf': PdfLoader(),
             'xlsx': XlsxLoader(),
             'csv': CsvLoader(),
-            'rtf': RtfLoader(),
             'pptx': PptxLoader(),
             'html': HtmlLoader()
         }
