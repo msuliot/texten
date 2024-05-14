@@ -26,5 +26,5 @@
   "text_output_directory": "/Users/msuliot/text_output",
   "pii_output_directory": "/Users/msuliot/pii_output",
   "hash_file_path": "file_hashes.json",
-  "scheduler_interval": 120
+  "scheduler_interval": 60
 }

@@ -14,7 +14,7 @@ def read_config(config_path):
 
 def run_task():
     print(f"Running task at: {time.ctime()}")
-    subprocess.run(["python3", "texten.py"])
+    subprocess.run(["python3", "app.py"])
     schedule_next_run()
 
 
