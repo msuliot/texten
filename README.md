@@ -1,7 +1,15 @@
 
 # TEXTEN - TEXT Extraction Node
 
-TEXTEN is a text extraction node designed to process files, detect and manage Personally Identifiable Information (PII), and save the processed files in a specified format.
+## TEXTEN is a robust and efficient application designed to automate the process of extracting text from various file formats, detecting Personally Identifiable Information (PII), and managing the results effectively. This tool is particularly useful for organizations that handle large volumes of documents and need to ensure compliance with data privacy regulations.
+
+Key Features
+- Text Extraction: Supports multiple file formats including DOCX, PDF, XLSX, PPTX, and others.
+- PII Detection: Uses configurable regex patterns to identify and flag sensitive information such as SSNs and credit card numbers.
+- File Hashing: Implements file hashing to detect changes and avoid reprocessing files unnecessarily.
+- Exclusion Patterns: Allows configuration of file and directory exclusion patterns.
+- Logging and Reporting: Maintains comprehensive logs of processing activities.
+- Configurable Output: Saves processed text and PII-flagged content to designated output directories.
 
 ## Git Repositories
 - https://github.com/msuliot/texten.git
@@ -26,7 +34,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/texten.git
+    git clone https://github.com/msuliot/texten.git
     cd texten
     ```
 
