@@ -14,9 +14,6 @@ TEXTEN is a text extraction node designed to process files, detect and manage Pe
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Logging](#logging)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
